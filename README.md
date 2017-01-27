@@ -41,5 +41,6 @@ First, in page source, the lattitue (X) and longitude (Y) parameters are posted 
 	}
 ...
 ```
-Whoa! The 'Tomcat' is a local Apache Tomcat server that runs in 8080. 
-TODO
+Next, I sent the request to Repeater and get the following response.
+![alt tag](https://github.com/rustempasha/insomnihack-teaser-2017-smarttomcat/blob/master/tomcat/writeup.png)
+
