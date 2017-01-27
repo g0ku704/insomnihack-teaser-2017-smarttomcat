@@ -1,4 +1,4 @@
-InsomniHack Teaser 2017 SmartTomCat WriteUp
+# InsomniHack Teaser 2017 SmartTomCat WriteUp
 
 The question was like following:
 
