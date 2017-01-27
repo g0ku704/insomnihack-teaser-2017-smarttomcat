@@ -42,5 +42,15 @@ First, in page source, the lattitue (X) and longitude (Y) parameters are posted 
 ...
 ```
 Next, I sent the request to Repeater and get the following response.
+
 ![alt tag](https://github.com/rustempasha/insomnihack-teaser-2017-smarttomcat/blob/master/tomcat/writeup.png)
+
+In parameter, the X and Y parameters are sent with GET request to the local server on port 8080.
+When I tried to send request without parameters I get the following response.
+
+![alt tag](https://github.com/rustempasha/insomnihack-teaser-2017-smarttomcat/blob/master/tomcat/burp2.png)
+
+
+
+
 
