@@ -50,7 +50,19 @@ When I tried to send request without parameters I get the following response.
 
 ![alt tag](https://github.com/rustempasha/insomnihack-teaser-2017-smarttomcat/blob/master/tomcat/burp2.png)
 
+I only can send requests to the local server with X and Y included.
+Then, I looked for web contents in the local server and I found something interesting.
+![alt tag](https://github.com/rustempasha/insomnihack-teaser-2017-smarttomcat/blob/master/tomcat/burp3.png)
 
+Whoa! The smart 'tomcat' is actually Apache Tomcat server (Also the logo of Apache Tomcat is described in index page).
+I wrote a small Python and Bash fuzzing script to discover web contents in Apache Tomcat using Tomcat dorks.
+And then I found <b>'/manager/html'</b> directory exists but need authentication.
+![alt tag](https://github.com/rustempasha/insomnihack-teaser-2017-smarttomcat/blob/master/tomcat/writeup2.png)
 
+For HTTP basic authentication, I tried some default user:pass combination used in Apache Tomcat manager page and voila,
+flag is given in response.
+![alt tag](https://github.com/rustempasha/insomnihack-teaser-2017-smarttomcat/blob/master/tomcat/writeup3.png)
+
+Flag: <b>INS{th1s_is_re4l_w0rld_pent3st}</b>
 
 
