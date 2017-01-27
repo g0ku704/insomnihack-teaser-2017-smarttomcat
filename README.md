@@ -4,9 +4,11 @@ The question was like following:
 
 Normal, regular cats are so 2000 and late, I decided to buy this allegedly smart tomcat robot Now the damn thing has attacked me and flew away. I can't even seem to track it down on the broken search interface... Can you help me ?
 <br/>
-Search interface
+<a href="http://smarttomcat.teaser.insomnihack.ch">Search interface</a>
 <br/>
 <br/>
+<br/>
+![alt tag](https://github.com/rustempasha/insomnihack-teaser-2017-smarttomcat/blob/master/tomcat/screensht.png)
 First, in page source, the lattitue (X) and longitude (Y) parameters are posted like following
 </br>
 ```javascript
