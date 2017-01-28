@@ -8,7 +8,7 @@ Normal, regular cats are so 2000 and late, I decided to buy this allegedly smart
 <br/>
 <br/>
 <br/>
-![alt tag](https://github.com/rustempasha/insomnihack-teaser-2017-smarttomcat/blob/master/tomcat/screensht.png)
+![alt tag](https://github.com/rustempasha/insomnihack-teaser-2017-smarttomcat/blob/master/tomcat/scrensht.png)
 First, in page source, the lattitue (X) and longitude (Y) parameters are posted like following
 </br>
 ```javascript
